@@ -13,12 +13,15 @@ public class Prices {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Prices p = new Prices();
+		System.out.println("Los precios son "+p.prices());
+		
 	}
 	
-	public static void prices() {
-		System.out.println("Prices");
+	public double prices() {
+		return 15.0d;
 	}
+	
+	 
 
 }
